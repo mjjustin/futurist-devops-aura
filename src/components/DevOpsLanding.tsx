@@ -24,23 +24,23 @@ const DevOpsLanding = () => {
     },
     {
       icon: <Server className="w-8 h-8" />,
-      title: "Kubernetes Orchestration",
-      description: "Advanced Kubernetes deployments, scaling, and management for containerized applications"
+      title: "Private Cloud (OpenStack)",
+      description: "Expert OpenStack deployment and management across multiple versions for private cloud infrastructure"
     },
     {
       icon: <Code className="w-8 h-8" />,
+      title: "Infrastructure as Code",
+      description: "Terraform and AWS CloudFormation for infrastructure automation and management"
+    },
+    {
+      icon: <Shield className="w-8 h-8" />,
       title: "CI/CD Pipelines",
       description: "Automated deployment pipelines with AWS CodePipeline, Jenkins, and GitLab CI"
     },
     {
-      icon: <Shield className="w-8 h-8" />,
-      title: "Security & Compliance",
-      description: "AWS security best practices, compliance frameworks, and DevSecOps implementation"
-    },
-    {
       icon: <GitBranch className="w-8 h-8" />,
-      title: "Infrastructure as Code",
-      description: "Terraform and AWS CloudFormation for infrastructure automation and management"
+      title: "Kubernetes Orchestration", 
+      description: "Advanced Kubernetes deployments, scaling, and management for containerized applications"
     },
     {
       icon: <Zap className="w-8 h-8" />,
@@ -50,10 +50,10 @@ const DevOpsLanding = () => {
   ];
 
   const technologies = [
-    "AWS", "Kubernetes", "Docker", "Terraform", "AWS EKS", "AWS CloudFormation",
+    "AWS", "Kubernetes", "Docker", "OpenStack", "Terraform", "AWS EKS", "AWS CloudFormation",
     "AWS CodePipeline", "AWS CloudWatch", "Prometheus", "Grafana", "ELK Stack", 
     "Jenkins", "GitLab CI", "GitHub Actions", "Helm", "Istio", "AWS Lambda",
-    "EC2", "S3", "RDS", "VPC", "IAM", "Ansible", "Redis", "PostgreSQL"
+    "EC2", "S3", "RDS", "VPC", "IAM", "C Programming", "Linux Kernel", "KVM", "Ansible"
   ];
 
   return (
@@ -78,8 +78,8 @@ const DevOpsLanding = () => {
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto">
-            Specialized AWS cloud architect and Kubernetes expert transforming businesses through 
-            scalable container orchestration, cloud-native solutions, and advanced monitoring systems.
+            From system kernel to cloud orchestration - a unique journey through every layer of modern infrastructure, 
+            specializing in AWS cloud architecture, Kubernetes, and private cloud environments.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -155,12 +155,12 @@ const DevOpsLanding = () => {
                 Building the <span className="gradient-text">Future</span>
               </h2>
               <p className="text-lg text-muted-foreground mb-6">
-                AWS-certified architect and Kubernetes specialist with over a decade of experience 
-                in cloud-native transformations and container orchestration at enterprise scale.
+                My unique journey: C programmer → Router/Switch programming → OpenStack engineer → 
+                SRE → Infrastructure Engineer → DevOps Architect. Deep expertise from kernel level to cloud orchestration.
               </p>
               <p className="text-lg text-muted-foreground mb-8">
-                From startups to Fortune 500 companies, I've architected resilient AWS infrastructures 
-                and deployed mission-critical Kubernetes clusters that scale seamlessly.
+                This foundation gives me unmatched insight into every layer: Kernel → Linux → Virtualization → 
+                Containers → Kubernetes. I architect solutions understanding the complete stack.
               </p>
               <Button className="glow-effect">
                 Let's Connect
@@ -175,25 +175,25 @@ const DevOpsLanding = () => {
                   <li className="flex items-start gap-3">
                     <div className="w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0" />
                     <span className="text-muted-foreground">
-                      AWS Solutions Architect & DevOps Professional certified
+                      Started as C programmer - deep systems knowledge
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
                     <div className="w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0" />
                     <span className="text-muted-foreground">
-                      Kubernetes (CKA/CKAD) certified specialist
+                      OpenStack expert across multiple versions & deployments
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
                     <div className="w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0" />
                     <span className="text-muted-foreground">
-                      100+ successful AWS cloud migrations
+                      AWS & Kubernetes certified professional
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
                     <div className="w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0" />
                     <span className="text-muted-foreground">
-                      Expert in monitoring & observability platforms
+                      Complete stack mastery: Kernel → Containers → Cloud
                     </span>
                   </li>
                 </ul>
