@@ -19,40 +19,41 @@ const DevOpsLanding = () => {
   const services = [
     {
       icon: <Cloud className="w-8 h-8" />,
-      title: "Cloud Architecture",
-      description: "Design and implement scalable cloud solutions on AWS, Azure, and GCP"
+      title: "AWS Cloud Architecture",
+      description: "Expert design and implementation of scalable AWS solutions with deep cloud-native expertise"
+    },
+    {
+      icon: <Server className="w-8 h-8" />,
+      title: "Kubernetes Orchestration",
+      description: "Advanced Kubernetes deployments, scaling, and management for containerized applications"
     },
     {
       icon: <Code className="w-8 h-8" />,
       title: "CI/CD Pipelines",
-      description: "Automated deployment pipelines with modern DevOps tools and practices"
+      description: "Automated deployment pipelines with AWS CodePipeline, Jenkins, and GitLab CI"
     },
     {
       icon: <Shield className="w-8 h-8" />,
       title: "Security & Compliance",
-      description: "DevSecOps implementation and security compliance frameworks"
-    },
-    {
-      icon: <Server className="w-8 h-8" />,
-      title: "Infrastructure as Code",
-      description: "Terraform, CloudFormation, and infrastructure automation"
+      description: "AWS security best practices, compliance frameworks, and DevSecOps implementation"
     },
     {
       icon: <GitBranch className="w-8 h-8" />,
-      title: "Version Control",
-      description: "Git workflows, branching strategies, and collaboration best practices"
+      title: "Infrastructure as Code",
+      description: "Terraform and AWS CloudFormation for infrastructure automation and management"
     },
     {
       icon: <Zap className="w-8 h-8" />,
-      title: "Performance Optimization",
-      description: "Application and infrastructure performance monitoring and tuning"
+      title: "Monitoring & Logging",
+      description: "Comprehensive observability with CloudWatch, Prometheus, Grafana, and ELK Stack"
     }
   ];
 
   const technologies = [
-    "Docker", "Kubernetes", "Terraform", "AWS", "Azure", "GCP",
-    "Jenkins", "GitLab CI", "GitHub Actions", "Ansible", "Prometheus",
-    "Grafana", "ELK Stack", "Redis", "PostgreSQL", "MongoDB"
+    "AWS", "Kubernetes", "Docker", "Terraform", "AWS EKS", "AWS CloudFormation",
+    "AWS CodePipeline", "AWS CloudWatch", "Prometheus", "Grafana", "ELK Stack", 
+    "Jenkins", "GitLab CI", "GitHub Actions", "Helm", "Istio", "AWS Lambda",
+    "EC2", "S3", "RDS", "VPC", "IAM", "Ansible", "Redis", "PostgreSQL"
   ];
 
   return (
@@ -68,7 +69,7 @@ const DevOpsLanding = () => {
         
         <div className="relative max-w-6xl mx-auto px-6 text-center">
           <Badge className="mb-6 bg-primary/10 text-primary border-primary/20">
-            DevOps Architect & Consultant
+            AWS Cloud Architect & Kubernetes Specialist
           </Badge>
           
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
@@ -77,8 +78,8 @@ const DevOpsLanding = () => {
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto">
-            Transforming businesses through scalable cloud architectures, 
-            automated workflows, and cutting-edge DevOps practices.
+            Specialized AWS cloud architect and Kubernetes expert transforming businesses through 
+            scalable container orchestration, cloud-native solutions, and advanced monitoring systems.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -154,13 +155,12 @@ const DevOpsLanding = () => {
                 Building the <span className="gradient-text">Future</span>
               </h2>
               <p className="text-lg text-muted-foreground mb-6">
-                With over a decade of experience in DevOps and cloud architecture, 
-                I help organizations modernize their infrastructure and development practices.
+                AWS-certified architect and Kubernetes specialist with over a decade of experience 
+                in cloud-native transformations and container orchestration at enterprise scale.
               </p>
               <p className="text-lg text-muted-foreground mb-8">
-                From startups to enterprise clients, I've successfully delivered 
-                scalable solutions that reduce costs, improve reliability, and 
-                accelerate time-to-market.
+                From startups to Fortune 500 companies, I've architected resilient AWS infrastructures 
+                and deployed mission-critical Kubernetes clusters that scale seamlessly.
               </p>
               <Button className="glow-effect">
                 Let's Connect
@@ -175,25 +175,25 @@ const DevOpsLanding = () => {
                   <li className="flex items-start gap-3">
                     <div className="w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0" />
                     <span className="text-muted-foreground">
-                      10+ years of hands-on DevOps experience
+                      AWS Solutions Architect & DevOps Professional certified
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
                     <div className="w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0" />
                     <span className="text-muted-foreground">
-                      Certified in AWS, Azure, and Google Cloud
+                      Kubernetes (CKA/CKAD) certified specialist
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
                     <div className="w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0" />
                     <span className="text-muted-foreground">
-                      Successfully delivered 50+ projects
+                      100+ successful AWS cloud migrations
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
                     <div className="w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0" />
                     <span className="text-muted-foreground">
-                      Focus on security and compliance
+                      Expert in monitoring & observability platforms
                     </span>
                   </li>
                 </ul>
